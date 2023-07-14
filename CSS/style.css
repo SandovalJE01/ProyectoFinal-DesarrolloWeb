@@ -15,13 +15,27 @@
 /*Footer*/
 .footer{
     background-color: #C9B8DA;
+    margin-block-start: 2%;
+
 }
 
+p{
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    font-size: 25px;
+}
 
 /*Contenido referido al cuerpo principal de la pagina inicio*/
-.carousel{
-    align-items: center;
+.sub-text{
+    padding: 2%;
 }
+
 
 /*Contenido referido al cuerpo principal de la pagina Nosotros*/
 
@@ -60,6 +74,7 @@ body{
 }
 .h1{
     color: black;
+    background-color: #C9B8DA;
     font-family: "beautiful";
     text-align: center;
     padding-block-start: 2%;
