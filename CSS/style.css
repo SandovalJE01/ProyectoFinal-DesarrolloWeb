@@ -29,6 +29,12 @@ h1 {
   padding-block-end: 2%;
 }
 
+h2 {
+  text-align: center;
+  padding-block-start: 2%;
+  padding-block-end: 2%;
+}
+
 .sub-text {
   text-align: center;
 }
