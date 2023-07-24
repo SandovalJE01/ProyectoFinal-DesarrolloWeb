@@ -1,95 +1,103 @@
-
 /*fonts*/
-@font-face{
-    font-family: "beautiful" ; src: url(../fonts/Beautiful\ People\ Personal\ Use.ttf);
-    }
-
+@font-face {
+  font-family: "beautiful";
+  src: url(../fonts/Beautiful\ People\ Personal\ Use.ttf);
+}
 /*Header*/
-.navbar{
-    padding-block-start: 0%;
-    padding-block-end: 0%;
-    font-size: 18px;
+.container-fluid {
+  background-color: #C9B8DA;
+  height: 85px;
 }
 
+.navbar {
+  padding-block-start: 0%;
+  padding-block-end: 0%;
+  font-size: 18px;
+}
+
+/*body de las paginas*/
+body {
+  background-color: #ffffb5;
+}
+
+h1 {
+  color: black;
+  background-color: #C9B8DA;
+  font-family: "beautiful";
+  text-align: center;
+  padding-block-start: 2%;
+  padding-block-end: 2%;
+}
+
+.sub-text {
+  text-align: center;
+}
+
+.sub-prod {
+  text-align: center;
+}
+
+.card-body {
+  background-color: #C9B8DA;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card {
+  background-color: #C9B8DA;
+}
+
+.col {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.rounded-5 {
+  height: 80%;
+}
+
+.card-body {
+  background-color: #C9B8DA;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card {
+  background-color: #C9B8DA;
+}
+
+.col {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.rounded-5 {
+  height: 80%;
+}
 
 /*Footer*/
-.footer{
-    background-color: #C9B8DA;
-    margin-block-start: 2%;
-
+.footer {
+  background-color: #C9B8DA;
+  margin-block-start: 2%;
+}
+.footer p {
+  font-size: 17px;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer i {
+  font-size: 25px;
 }
 
-p{
-    font-size: 17px;
-}
+/*$temporada:"default"
 
-a{
-    text-decoration: none;
-}
+@if ($temporada == "summer"){
 
-i{
-    font-size: 25px;
-}
+}*/
 
-/*Contenido referido al cuerpo principal de la pagina inicio*/
-.sub-text{
-    padding: 2%;
-}
-
-
-/*Contenido referido al cuerpo principal de la pagina Nosotros*/
-
-/*Contenido referido al cuerpo principal de la pagina Productos*/
-
-.container-fluid{
-    background-color: #C9B8DA;
-    height: 85px;
-    
-}
-
-body{
-    background-color: #ffffb5;
-}
-
-.card-body{
-    background-color: #C9B8DA;
-    
-}
-
-.card-title{
-    text-align: center;
-}
-.card{
-    background-color: #C9B8DA;
-}
-
-
-
-.col{
-    padding-left: 3%; padding-right: 3%;
-}
-
-.rounded-5{
-    height: 80%;
-}
-.h1{
-    color: black;
-    background-color: #C9B8DA;
-    font-family: "beautiful";
-    text-align: center;
-    padding-block-start: 2%;
-    padding-block-end: 2%;
-}
-.sub-text{
-    text-align: center;
-
-}
-.sub-prod{
-    text-align: center;
-}
-
-/*Contenido referido al cuerpo principal de la pagina Contacto*/
-/*Contenido referido al cuerpo principal de la pagina Regsitrarse*/
-
-
-
+/*# sourceMappingURL=style.css.map */
