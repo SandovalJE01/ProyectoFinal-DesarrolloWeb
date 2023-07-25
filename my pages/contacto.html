@@ -6,36 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
     <link rel="stylesheet" href="../CSS/style.css">
 
     <title>Contacto</title>
 </head>
 
-<body>
-<!--Encabezado------------------------------------------------------->
-<header class="cabecera">
+<header>
 
-    <h1>CositasRicas</h1>
-    <h2>Pasteleria</h2>
+    <body>
 
-    <nav class="navbar">
-        <ul>
-            <li><a href="../index.html">Inicio</a>
-            </li>
-            <li><a href="./Productos.html">Productos</a>
-            </li>
-            <li><a href="./Nosotros.html">Nosotros</a>
-            </li>
-            <li><a href="./contacto.html">Contacto</a>
-            </li>
-            <li><a href="./registrarse.html">Registrarse</a>
-            </li>
-        </ul>
-    </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">CositasRicas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="menu"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="./Productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./Nosotras.html">Nosotras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./contacto.html">
+                                Contacto
+                            </a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./registrarse.html">Registrarse</a>
+                        </li>
+                    </ul>
+
+                    <a class="btn btn-outline-dark" href="./registrarse.html">Iniciar Sesion</a>
+
+                </div>
+            </div>
+        </nav>
 
 </header>
 <!--Cuerpo Principal-------------------------------->
@@ -66,9 +79,100 @@
 </main>
 
 <!--Pie de Pagina-->    
-<footer>
+<footer class="footer text-dark pt-5 pb-4">
+    <div class="container text-center text-md-start">
+        <div class="row text-center text-md-start">
+
+            <div class="col-md-3 col-lg-3 col-x1-3 mx-auto mt-3">
+                <h5 class="text-dark mb-4 font-weight-bold text primary">Nosotras</h5>
+                <hr class="mb-4">
+                <p>Bienvenidos a nuestra repostería artesanal en Berón de Astrada, donde el dulce sabor se une con
+                    la dedicación
+                    y el cariño de dos apasionadas por la pastelería.
+                </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-x1-2 mx-auto mt-3">
+                <h5 class="text-dark mb-4 font-weight-bold text-primary">Dejanos ayudarte</h5>
+                <hr class="mb-4">
+                <p>
+                    <a href="./registrarse.html" class="text-dark">Tu cuenta</a>
+                </p>
+                <p>
+                    <a href="#" class="text-dark">Tus ordenes</a>
+                </p>
+                <p>
+                    <a href="#" class="text-dark">Manejo de cuenta</a>
+                </p>
+                <p>
+                    <a href="./contacto.html" class="text-dark">Ayuda</a>
+                </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-x1-2 mx-auto mt-3">
+                <h5 class="text-dark mb-4 font-weight-bold text-primary">Productos</h5>
+                <hr class="mb-4">
+                <p>
+                    <a href="./Productos.html" class="text-dark">Conoce Nuestros Servicios</a>
+                </p>
+                <p>
+                    <a href="#" class="text-dark">Galeria de Productos</a>
+                </p>
+                <p>
+                    <a href="#" class="text-dark">Pedidos</a>
+                </p>
+                <p>
+                    <a href="./contacto.html" class="text-dark">Reclamos</a>
+                </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-x1-2 mx-auto mt-3">
+                <h5 class="text-dark mb-4 font-weight-bold text-primary">Contacto</h5>
+                <hr class="mb-4">
+                <p>
+                    <li class="fas fa-home me-3"></li> Beron de Astrada, Corrientes
+                </p>
+                <p>
+                    <li class="fas fa-envelope me-3"></li> gmail@gmail.com
+                </p>
+                <p>
+                    <li class="fas fa-phone me-3"></li> +5493794
+                </p>
+                <p>
+                    <li class="fab fa-instagram"></li> cositasricasma_bre
+                </p>
+
+
+            </div>
+            <hr class="mb-4">
+
+            <div class="text-center mb-2">
+                <p>
+                    Copyright Todos los derechos reservados
+                </p>
+            </div>
+            <div class="text-center">
+
+                <ul class="list-unlisted list-inline">
+                    <li class="list-inline-item">
+                        <a href="#" class="text-dark"> <i class="fab fa-facebook"></i> </a>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-dark"> <i class="fab fa-whatsapp"></i> </a>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-dark"> <i class="fab fa-instagram"></i> </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </footer>
+<script src="../js/popper.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="https://kit.fontawesome.com/8cdaa4c984.js" crossorigin="anonymous"></script>
     
 </body>
 

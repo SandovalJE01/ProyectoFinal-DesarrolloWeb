@@ -58,6 +58,7 @@ h2 {
 .col {
   padding-left: 3%;
   padding-right: 3%;
+  padding-block-end: 3%;
 }
 
 .rounded-5 {
@@ -79,6 +80,7 @@ h2 {
 .col {
   padding-left: 3%;
   padding-right: 3%;
+  padding-block-end: 3%;
 }
 
 .rounded-5 {
@@ -99,11 +101,5 @@ h2 {
 .footer i {
   font-size: 25px;
 }
-
-/*$temporada:"default"
-
-@if ($temporada == "summer"){
-
-}*/
 
 /*# sourceMappingURL=style.css.map */
