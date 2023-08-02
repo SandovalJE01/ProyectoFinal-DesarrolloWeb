@@ -3,13 +3,16 @@
   font-family: "beautiful";
   src: url(../fonts/Beautiful\ People\ Personal\ Use.ttf);
 }
+@font-face {
+  font-family: "rubik";
+  src: url(../../fonts/Rubik.ttf);
+}
 /*Header*/
-.container-fluid {
+header .container-fluid {
   background-color: #C9B8DA;
   height: 85px;
 }
-
-.navbar {
+header .navbar {
   padding-block-start: 0%;
   padding-block-end: 0%;
   font-size: 18px;
@@ -43,47 +46,29 @@ h2 {
   text-align: center;
 }
 
-.card-body {
-  background-color: #C9B8DA;
+p {
+  font-family: "rubik";
+  font-size: 18px;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-.card-title {
+/*Tarjetas*/
+body .card-body {
+  background-color: #C9B8DA;
+}
+body .card-title {
   text-align: center;
 }
-
-.card {
+body .card {
   background-color: #C9B8DA;
 }
-
-.col {
+body .col {
   padding-left: 3%;
   padding-right: 3%;
   padding-block-end: 3%;
 }
-
-.rounded-5 {
-  height: 80%;
-}
-
-.card-body {
-  background-color: #C9B8DA;
-}
-
-.card-title {
-  text-align: center;
-}
-
-.card {
-  background-color: #C9B8DA;
-}
-
-.col {
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-block-end: 3%;
-}
-
-.rounded-5 {
+body .rounded-5 {
   height: 80%;
 }
 
@@ -101,5 +86,7 @@ h2 {
 .footer i {
   font-size: 25px;
 }
+
+/*variables*/
 
 /*# sourceMappingURL=style.css.map */

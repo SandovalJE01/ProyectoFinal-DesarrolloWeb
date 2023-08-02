@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang=>
-    <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../CSS/bootstrap.css">
     <link rel="stylesheet" href="../CSS/style.css">
 
@@ -27,8 +29,7 @@
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"
-                                href="./Productos.html">Productos</a>
+                            <a class="nav-link active" aria-current="page" href="./Productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="./Nosotras.html">Nosotras</a>
@@ -54,31 +55,17 @@
 <!--Cuerpo Principal-------------------------------->
 
 <main>
-    <form action="#">
-        <div>
-        <label for="">Nombre</label>
-        <input type="text" name="Nombre" id="Nombre" placeholder="Ingresa tu Nombre"/>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
     </div>
-        <label for="apellido">Apellido</label>
-        <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu Apellido"/>
-        <div>
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email" placeholder="Ingresa tu Email"/>
-        </div>
-        <div>
-            <label for="pass">Password</label>
-            <input type="text" name="pass" id="pass" placeholder="Su password"/>
-        </div>
-        <label for="mensaje">Su mensaje</label>
-            <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
-        <div>
-            <!--input type="submit" value= "enviar"-->
-            <button type="submit">Enviar</button>
-        </div>
-    </form>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
 </main>
 
-<!--Pie de Pagina-->    
+<!--Pie de Pagina-->
 <footer class="footer text-dark pt-5 pb-4">
     <div class="container text-center text-md-start">
         <div class="row text-center text-md-start">
@@ -172,8 +159,9 @@
 </footer>
 <script src="../js/popper.js"></script>
 <script src="../js/bootstrap.js"></script>
+<script src="./js/bootstrap.bundle.js" ></script>
 <script src="https://kit.fontawesome.com/8cdaa4c984.js" crossorigin="anonymous"></script>
-    
+
 </body>
 
 </html>

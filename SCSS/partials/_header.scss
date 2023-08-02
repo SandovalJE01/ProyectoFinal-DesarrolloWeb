@@ -1,14 +1,18 @@
 /*Header*/
-.container-fluid{
-    background-color: #C9B8DA;
-    height: 85px;
+header{
+    .container-fluid{
+        background-color: #C9B8DA;
+        height: 85px;
+    }
+    
+    .navbar{
+        padding-block-start: 0%;
+        padding-block-end: 0%;
+        font-size: 18px;
+    }
+
 }
 
-.navbar{
-    padding-block-start: 0%;
-    padding-block-end: 0%;
-    font-size: 18px;
-}
 
 
 
