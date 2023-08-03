@@ -55,14 +55,24 @@
 <!--Cuerpo Principal-------------------------------->
 
 <main>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
-    </div>
-    <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
+
+    <body>
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name" _msttexthash="108303" _msthash="17">Nombre</label>
+              <input type="text" name="name" id="full-name" placeholder="First and Last" required="" _mstplaceholder="201643" _msthash="18">
+                  <label for="full-name" _msttexthash="108303" _msthash="17">Apellido</label>
+              <input type="text" name="name" id="full-name" placeholder="First and Last" required="" _mstplaceholder="201643" _msthash="18">
+              <label for="email-address" _msttexthash="198861" _msthash="19">Correo Electronico</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="" _mstplaceholder="298038" _msthash="20">
+              <label for="message" _msttexthash="92924" _msthash="21">Su Consulta:</label>
+              <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required="" _mstplaceholder="19695312" _msthash="22"></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Enviar" _mstvalue="78468" _msthash="23">
+          </form>
+    </body>
+
 </main>
 
 <!--Pie de Pagina-->
@@ -159,8 +169,42 @@
 </footer>
 <script src="../js/popper.js"></script>
 <script src="../js/bootstrap.js"></script>
-<script src="./js/bootstrap.bundle.js" ></script>
+<script src="./js/bootstrap.bundle.js"></script>
 <script src="https://kit.fontawesome.com/8cdaa4c984.js" crossorigin="anonymous"></script>
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+
+    window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
+    formbutton("create", {
+        action: "https://formspree.io/f/xnqkjlzw",
+        title: "¿Cómo podemos ayudar?",
+        fields: [
+            {
+                type: "email",
+                label: "Email:",
+                name: "email",
+                required: true,
+                placeholder: "Tu@email.com"
+            },
+            {
+                type: "textarea",
+                label: "Mensaje:",
+                name: "message",
+                required: true,
+                placeholder: "Deposite su consulta",
+            },
+            { type: "submit" }
+        ],
+        styles: {
+            title: {
+                backgroundColor: "blue"
+            },
+            button: {
+                backgroundColor: "blue"
+            }
+        }
+    });
+</script>
 
 </body>
 

@@ -54,33 +54,40 @@
     </header>
     
     <main>
-        <h2 class="texto">Regístrate y suma puntos para tener Descuentos</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione in dicta, laudantium magnam impedit eum cum magni earum labore aliquam quod sequi temporibus delectus architecto maiores asperiores itaque. Ipsum officia, rem distinctio porro ducimus velit. Voluptatum nemo sed est repellendus incidunt consequuntur voluptas officiis, commodi eligendi consectetur. Consequatur porro et aliquid, necessitatibus ducimus soluta itaque quisquam omnis nobis rem molestias dolorum eius voluptates magni error asperiores officiis nesciunt repellendus totam quasi, vitae sunt quidem. Mollitia similique laudantium adipisci ut perspiciatis.</p>
-        <section>
-            <h2 class="texto">REGISTRATE GRATIS</h2>
-            <form action="#">
-                <div>
-                <label for="">Nombre</label>
-                <input type="text" name="Nombre" id="Nombre" placeholder="Ingresa tu Nombre"/>
+        <body class="registro">
+            <div class="container">
+              <input type="checkbox" id="check">
+              <div class="login form">
+                <header>Login</header>
+                <form action="#">
+                  <input type="text" placeholder="Enter your email">
+                  <input type="password" placeholder="Enter your password">
+                  <a href="#">Forgot password?</a>
+                  <input type="button" class="button" value="Login">
+                </form>
+                <div class="signup">
+                  <span class="signup">Don't have an account?
+                   <label for="check">Signup</label>
+                  </span>
+                </div>
+              </div>
+              <div class="registration form">
+                <header>Signup</header>
+                <form action="#">
+                  <input type="text" placeholder="Enter your email">
+                  <input type="password" placeholder="Create a password">
+                  <input type="password" placeholder="Confirm your password">
+                  <input type="button" class="button" value="Signup">
+                </form>
+                <div class="signup">
+                  <span class="signup">Already have an account?
+                   <label for="check">Login</label>
+                  </span>
+                </div>
+              </div>
             </div>
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu Apellido"/>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" placeholder="Ingresa tu Email"/>
-                </div>
-                <div>
-                    <label for="pass">Contraseña</label>
-                    <input type="text" name="pass" id="pass" placeholder="Contraseña"/>
-                </div>
-                <label for="mensaje">Repita su Contraseña</label>
-                <input type="text" name="pass" id="pass" placeholder="Contraseña"/>
-                <div>
-                    <!--input type="submit" value= "enviar"-->
-                    <button type="submit">Crear</button>
-                </div>
-            </form>
-
+          </body>
+          
     </main>
     <!--Pie de Pagina-->
     <footer class="footer text-dark pt-5 pb-4">
