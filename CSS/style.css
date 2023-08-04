@@ -9,26 +9,36 @@
 }
 /*Header*/
 header .container-fluid {
-  background-color: #C9B8DA;
+  background-color: #221f1f;
   height: 85px;
+  border-top: 10%;
+  border-color: #c973ff;
 }
 header .navbar {
   padding-block-start: 0%;
   padding-block-end: 0%;
   font-size: 20px;
 }
+header .navbar .navbar-brand {
+  color: white;
+}
 header .btn {
   margin: 1%;
+  background-color: black;
+}
+header .btn:hover {
+  margin: 1%;
+  background-color: #aebaf8;
 }
 
 /*body de las paginas*/
 body {
-  background-color: #ffffb5;
+  background-image: linear-gradient(90deg, #c973ff, #aebaf8);
 }
 
 h1 {
-  color: black;
-  background-color: #C9B8DA;
+  color: white;
+  background-color: #221f1f;
   font-family: "beautiful";
   text-align: center;
   padding-block-start: 2%;
@@ -58,13 +68,18 @@ p {
 
 /*Tarjetas*/
 body .card-body {
-  background-color: #C9B8DA;
+  background-color: #ff8ddb;
 }
 body .card-title {
   text-align: center;
+  color: black;
 }
 body .card {
-  background-color: #C9B8DA;
+  background-color: #ff8ddb;
+}
+body .card-text {
+  text-align: center;
+  color: black;
 }
 body .col {
   padding-left: 3%;
@@ -77,17 +92,19 @@ body .rounded-5 {
 
 /*Footer*/
 .footer {
-  background-color: #C9B8DA;
+  background-color: #221f1f;
   margin-block-start: 2%;
 }
 .footer p {
   font-size: 17px;
+  color: white;
 }
 .footer a {
   text-decoration: none;
 }
 .footer i {
   font-size: 25px;
+  color: white;
 }
 
 /*Formulario de Contacto*/
