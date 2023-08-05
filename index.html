@@ -45,13 +45,13 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white active animate__animated animate__zoomIn"
-                                href="./my pages/registrarse.html">Registrarse</a>
+                                href="./my pages/pedidos.html">Pedidos</a>
                         </li>
                     </ul>
 
                     <a class="btn btn-outline-dark text-white animate__animated animate__zoomIn"
                         href="./my pages/registrarse.html">Iniciar Sesion</a>
-                    <a class="btn btn-outline-dark text-white animate__animated animate__zoomIn" href="#">CrearCuenta</a>
+                    <a class="btn btn-outline-dark text-white animate__animated animate__zoomIn" href="./my pages/crearcuenta.html">CrearCuenta</a>
 
                 </div>
             </div>
@@ -203,6 +203,40 @@
 <script src="./js/popper.js"></script>
 <script src="./js/bootstrap.bundle.js"></script>
 <script src="https://kit.fontawesome.com/8cdaa4c984.js" crossorigin="anonymous"></script>
+<script>
+
+    window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
+    formbutton("create", {
+        action: "https://formspree.io/f/xnqkjlzw",
+        title: "¿Cómo podemos ayudar?",
+        fields: [
+            {
+                type: "email",
+                label: "Email:",
+                name: "email",
+                required: true,
+                placeholder: "Tu@email.com"
+            },
+            {
+                type: "textarea",
+                label: "Mensaje:",
+                name: "message",
+                required: true,
+                placeholder: "Deposite su consulta",
+            },
+            { type: "submit" }
+        ],
+        styles: {
+            title: {
+                backgroundColor: "#ff8ddb"
+            },
+            button: {
+                backgroundColor: "black"
+            }
+        }
+    });
+</script>
+
 </body>
 
 </html>

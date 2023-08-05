@@ -38,6 +38,10 @@ header .btn:hover {
   background-color: #221f1f;
 }
 
+.navbar-nav {
+  background-color: #221f1f;
+}
+
 /*body de las paginas*/
 body {
   background-image: linear-gradient(90deg, #c973ff, #aebaf8);
