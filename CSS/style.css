@@ -31,6 +31,13 @@ header .btn:hover {
   background-color: #aebaf8;
 }
 
+.navbar-collapse {
+  z-index: 1;
+  width: auto;
+  height: auto;
+  background-color: #221f1f;
+}
+
 /*body de las paginas*/
 body {
   background-image: linear-gradient(90deg, #c973ff, #aebaf8);
