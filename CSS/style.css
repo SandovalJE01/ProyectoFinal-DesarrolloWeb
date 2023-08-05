@@ -149,6 +149,84 @@ body .rounded-5 {
 }
 
 /*Formulario de Contacto*/
+#contacto {
+  padding-block-end: 0%;
+}
+#contacto #titlecontact {
+  color: black;
+  padding-top: 3%;
+  text-align: center;
+  font-size: 60px;
+  font-family: "beautiful";
+  animation: bounceInRight;
+  animation-duration: 2s;
+}
+#contacto input {
+  background-color: white;
+  width: 70%;
+  margin-left: 15%;
+  font-size: 16px;
+  padding: 16px 16px;
+  border-radius: 10px;
+  border-color: black;
+  margin-bottom: 20px;
+  display: inline-block;
+  animation: bounceInLeft;
+  animation-duration: 2s;
+}
+#contacto textarea {
+  background-color: white;
+  width: 70%;
+  margin-left: 15%;
+  font-size: 16px;
+  padding: 16px 16px;
+  border-radius: 10px;
+  border-color: black;
+  margin-bottom: 20px;
+  display: inline-block;
+  animation: bounceInLeft;
+  animation-duration: 2s;
+}
+#contacto input:focus-within {
+  outline: none;
+  border-color: #ff8ddb;
+  border-width: 3px;
+}
+#contacto textarea:focus-within {
+  outline: none;
+  border-color: #ff8ddb;
+  border-width: 3px;
+}
+#contacto button#contact {
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  border-color: white;
+  font-size: 22px;
+  padding: 8px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  animation: zoomIn;
+  animation-duration: 2s;
+}
+#contacto button#contact:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #ff8ddb;
+  border-color: black;
+}
+
+.subtexto {
+  color: black;
+  padding-top: 3%;
+  text-align: center;
+  font-size: 30px;
+  font-family: "rubik";
+  animation: bounceInRight;
+  animation-duration: 2s;
+}
+
 /*Formulario de Registro*/
 /*variables*/
 

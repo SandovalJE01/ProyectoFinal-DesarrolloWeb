@@ -51,7 +51,7 @@
 
                     <a class="btn btn-outline-dark text-white animate__animated animate__zoomIn"
                         href="./registrarse.html">Iniciar Sesion</a>
-                    <a class="btn btn-outline-dark text-white animate__animated animate__zoomIn" href="#">Crear
+                    <a class="btn btn-outline-dark text-white animate__animated animate__zoomIn" href="./crearcuenta.html">Crear
                         Cuenta</a>
 
                 </div>
@@ -61,29 +61,19 @@
 </header>
 
 <main>
-
-    <body>
-        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}"
-            method="post">
-            <fieldset id="fs-frm-inputs">
-                <label for="full-name" _msttexthash="108303" _msthash="17">Nombre</label>
-                <input type="text" name="name" id="full-name" placeholder="First and Last" required=""
-                    _mstplaceholder="201643" _msthash="18">
-                <label for="full-name" _msttexthash="108303" _msthash="17">Apellido</label>
-                <input type="text" name="name" id="full-name" placeholder="First and Last" required=""
-                    _mstplaceholder="201643" _msthash="18">
-                <label for="email-address" _msttexthash="198861" _msthash="19">Correo Electronico</label>
-                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""
-                    _mstplaceholder="298038" _msthash="20">
-                <label for="message" _msttexthash="92924" _msthash="21">Su Consulta:</label>
-                <textarea rows="5" name="message" id="message"
-                    placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
-                    required="" _mstplaceholder="19695312" _msthash="22"></textarea>
-                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-            </fieldset>
-            <input type="submit" value="Enviar" _mstvalue="78468" _msthash="23">
+    <div id="contacto">
+        <form action="https://formspree.io/f/xnqkjlzw" method="post">
+        <p id="titlecontact">Contacto</p>
+        <p class="subtexto">Deposite su consulta o Reclamo</p>
+        <input type="text" name="first" placeholder="Nombre" autocomplete="off" required>
+        <input type="text" name="last" placeholder="Apellido" autocomplete="off" required>
+        <input type="email" name="email" placeholder="Correo Electronico" autocomplete="off" required>
+        <textarea rows="5" cols="60" name="message" placeholder="Mensaje" autocomplete="off" required></textarea>
+        <button id="contact" type="submit">Enviar</button>
         </form>
-    </body>
+    </div>
+
+
 
 </main>
 
@@ -186,6 +176,7 @@
 <script src="./js/bootstrap.bundle.js"></script>
 <script src="https://kit.fontawesome.com/8cdaa4c984.js" crossorigin="anonymous"></script>
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
 <script>
 
     window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
@@ -211,10 +202,10 @@
         ],
         styles: {
             title: {
-                backgroundColor: "blue"
+                backgroundColor: "#ff8ddb"
             },
             button: {
-                backgroundColor: "blue"
+                backgroundColor: "black"
             }
         }
     });

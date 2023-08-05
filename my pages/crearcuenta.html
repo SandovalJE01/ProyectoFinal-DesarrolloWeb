@@ -42,7 +42,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white active animate__animated animate__zoomIn"
-                                href="./registrarse.html">Registrarse</a>
+                                href="./pedidos.html">Pedidos</a>
                         </li>
                     </ul>
 
@@ -56,6 +56,20 @@
         </nav>
 
 </header>
+<main>
+    <body>
+        <div id="contacto">
+            <form action="https://formspree.io/f/xnqkjlzw" method="post">
+            <p id="titlecontact">Cuenta Nueva</p>
+            <p class="subtexto">Crea tu cuenta. Suma puntos para obtener Descuentos o Envios Gratis</p>
+            <input type="email" name="email" placeholder="Correo Electronico" autocomplete="off" required>
+            <input type="password" name="password" placeholder="Contraseña" autocomplete="off" required>
+            <input type="password" name="password" placeholder="Repita su Contraseña" autocomplete="off" required>
+            <button id="contact" type="submit">Crear</button>
+            </form>
+        </div>
+    </body>
+</main>
 
 <body>
     <footer class="footer text-dark pt-5 pb-4 text-white">
@@ -149,6 +163,45 @@
         </div>
 
     </footer>
+    <script src="../js/popper.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="./js/bootstrap.bundle.js"></script>
+<script src="https://kit.fontawesome.com/8cdaa4c984.js" crossorigin="anonymous"></script>
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
+<script>
+
+    window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
+    formbutton("create", {
+        action: "https://formspree.io/f/xnqkjlzw",
+        title: "¿Cómo podemos ayudar?",
+        fields: [
+            {
+                type: "email",
+                label: "Email:",
+                name: "email",
+                required: true,
+                placeholder: "Tu@email.com"
+            },
+            {
+                type: "textarea",
+                label: "Mensaje:",
+                name: "message",
+                required: true,
+                placeholder: "Deposite su consulta",
+            },
+            { type: "submit" }
+        ],
+        styles: {
+            title: {
+                backgroundColor: "#ff8ddb"
+            },
+            button: {
+                backgroundColor: "black"
+            }
+        }
+    });
+</script>
 </body>
 
 </html>
