@@ -77,6 +77,16 @@ p {
   padding-right: 2%;
 }
 
+.btn {
+  margin: 1%;
+}
+
+.btn:hover {
+  background-color: #ff8ddb;
+  animation: pulse;
+  animation-duration: 2s;
+}
+
 #galeria .col-lg-4 {
   margin: 0;
   padding: 25px;
@@ -110,7 +120,7 @@ h1.galeriatp {
 div.btn-group {
   position: absolute;
   top: 15%;
-  left: 2%;
+  left: 1%;
   transform: translate(-10, -10);
 }
 

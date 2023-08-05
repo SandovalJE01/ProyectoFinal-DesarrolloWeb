@@ -35,3 +35,14 @@ p{
     padding-right: 2%;
 }
 
+.btn{
+    margin: 1%;
+}
+
+.btn:hover{
+    background-color: #ff8ddb;
+    animation: pulse;
+    animation-duration: 2s;
+}
+
+
