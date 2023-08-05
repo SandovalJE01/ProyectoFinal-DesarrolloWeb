@@ -9,7 +9,7 @@
 }
 
 #galeria img:hover{
-    /*border: 5px solid black;*/
+    border: 5px solid #ff8ddb;
     display: inline-block;
     margin: 0 0.5rem;
   
@@ -29,6 +29,18 @@ h1.galeriatp{
     color: black;
 
 }
+
+div.btn-group{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    transform: translate(-10, -10);
+}
+
+ul.dropdown-menu{
+    background-color: #ff8ddb;
+}
+
 
 
 
