@@ -1,0 +1,40 @@
+#galeria .col-lg-4{
+    margin: 0; 
+    padding: 25px;
+}
+
+#galeria img{
+    width: 100%;
+    height: 360px;
+}
+
+#galeria img:hover{
+    /*border: 5px solid black;*/
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce;
+    animation-duration: 2s;
+}
+
+h1.galeriatp:hover{
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce;
+    animation-duration: 2s;
+}
+h1.galeriatp{
+    background: none;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
